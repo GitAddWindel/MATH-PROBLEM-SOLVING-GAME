@@ -1,0 +1,53 @@
+ .container, .leaderboard {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-top: 100px;
+        }
+
+        .container {
+            height: 500px; /* Same height for both */
+        }
+
+        .leaderboard {
+            height: 500px; /* Same height for both */
+            overflow-y: auto;
+        }
+
+        .leaderboard h2 {
+            color: #020911;
+            margin-bottom: 15px;
+        }
+
+        .leaderboard ol {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .leaderboard li {
+            background-color: #fff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #333;
+            font-size: 16px;
+            text-align: left;
+            border: 1px solid #333;
+        }
+
+        .leaderboard li:nth-child(odd) {
+            background-color: #eef3f7;
+        }
+
+        .leaderboard li span {
+            font-weight: bold;
+            color: #4a90e2;
+        }
+        .exp {
+            color: red;
+            font-weight: bold;
+        }
+     
